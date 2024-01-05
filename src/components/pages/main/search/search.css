@@ -1,0 +1,15 @@
+.search .MuiInputBase-root.MuiOutlinedInput-root{
+  width: 100px;
+  height: 40px;
+}
+.search  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-adornedEnd{
+  width: 200px;
+  margin-left: 10px;
+}
+
+.search .MuiFormControl-root label.Mui-focused{
+    color: #94a3b8;
+  }
+  .search .MuiFormControl-root {
+    margin-right: 0px;
+  }

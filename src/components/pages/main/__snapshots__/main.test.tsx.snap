@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a message 1`] = `
+<DocumentFragment>
+  <div
+    class="p-5 h-full"
+  >
+    <div
+      class="search flex justify-end mb-4"
+    >
+      <div
+        class="flex flex-col items-end md:items-center  md:flex-row"
+      >
+        <div
+          class="MuiFormControl-root css-e363es-MuiFormControl-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-1sphd2m-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="true"
+            id="searchType"
+          >
+            Search by
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall  css-r189ct-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+          >
+            <div
+              aria-controls=":r0:"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="searchType"
+              class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              role="combobox"
+              tabindex="0"
+            >
+              Title
+            </div>
+            <input
+              aria-hidden="true"
+              aria-invalid="false"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              tabindex="-1"
+              value="&query="
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-14lo706"
+              >
+                <span>
+                  Search by
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd css-sce4e9-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <input
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+            placeholder="Search by title"
+            type="text"
+            value=""
+          />
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionEnd css-1laqsz7-MuiInputAdornment-root"
+          >
+            <button
+              aria-label="toggle password visibility"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ClearIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-ihdtdm"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://antonz.org/go-1-22/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Go 1.22: Interactive release notes
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          nalgeon
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://www.cnn.com/2024/01/02/sport/luke-littler-world-darts-championship-alexandra-palace-spt-intl/index.html"
+        rel="noreferrer"
+        target="_blank"
+      >
+        16-yr-old is shaking up heady, often orbit of World Darts Championship
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          annabyrd
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://chat-to.dev/chat?q=python-solutions"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Do you like programming? Then come and learn with me here for free
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          cannibalXxx
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://www.jacobwolf.report/p/charity-profit-look-company-made-millions-off-twitchs-mostwatched-fundraising-streams"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Charity for Profit: Company Made Millions Off Twitch Fundraising Streams
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          thinkingemote
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Ask HN: Looking for a DJ Program
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          laserstrahl
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        rel="noreferrer"
+        target="_blank"
+      >
+        One percent of Chrome users experience degraded functionality on Microsoft 365
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          w3ll_w3ll_w3ll
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://github.com/royllo/explorer"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Show HN: Royllo 0.1.0, an open source explorer for Taproot assets
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          straumat
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://eastpolepaddles.com/inuit-kayak/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Inuits and Kayaks in Aberdeen
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          thunderbong
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://old.reddit.com/r/CredibleDefense/comments/18wr57g/whats_the_state_of_us_procurement_any/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        What's the State of U.S. Procurement? Any Improvements in the Works?
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          thunderbong
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://stolbitsa.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Show HN: Stolbitsa – social ear training on GitHub
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          korh0b
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://thenewstack.io/year-in-review-platform-engineering-still-run-by-spreadsheet/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Platform Engineering Still Run by Spreadsheet
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          ssmew
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Do high growth Silicon Valley startups (OpenAI, Stripe etc.) use agile?
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          rakshran
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://blog.jessfraz.com/post/the-life-of-a-data-byte/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        The Life of a Data Byte
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          rrampage
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://fredrikmeyer.net//2024/01/05/new-mac.html"
+        rel="noreferrer"
+        target="_blank"
+      >
+        How I set up my new MacBook
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          FredrikMeyer
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="http://www.catb.org/~esr/faqs/hacker-howto.html"
+        rel="noreferrer"
+        target="_blank"
+      >
+        How to Become a Hacker
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          iacguy
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://abseil.io/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Open source collection of Google's C++ libraries
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          ustad
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://www.cnet.com/tech/mobile/iphone-keyboard-learns-what-you-type-dynamically-resizes-key-hot-zones/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        iPhone keyboard: Learns what you type, dynamically resizes key "hot zones"(2008)
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          mcint
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://lwn.net/Articles/749992/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        A look at terminal emulators, part 1 (2018)
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          signa11
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://www.japantimes.co.jp/business/2024/01/05/tuna-new-year-auction/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Tokyo's top tuna for the new year sells for ¥114.2M ($788,440)
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          geox
+        </span>
+      </p>
+    </div>
+    <div
+      class="border-2 border-gray-300 rounded-md drop-shadow-lg mb-6 p-2 hover:bg-gray-100"
+    >
+      <a
+        class="font-semibold text-lg  hover:cursor-pointer"
+        href="https://groups.google.com/g/fa.freebsd.hackers/c/V7cWmQeWVfg/m/IIjCCbdz4BEJ"
+        rel="noreferrer"
+        target="_blank"
+      >
+        A modest proposal for better errno values
+      </a>
+      <p>
+        Author: 
+        <span
+          class=""
+        >
+          thefilmore
+        </span>
+      </p>
+    </div>
+    <div
+      class="flex items-center justify-center"
+    >
+      <button
+        class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+        data-testid="prevPage"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="KeyboardArrowLeftRoundedIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M14.71 15.88 10.83 12l3.88-3.88c.39-.39.39-1.02 0-1.41a.9959.9959 0 0 0-1.41 0L8.71 11.3c-.39.39-.39 1.02 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0 .38-.39.39-1.03 0-1.42z"
+          />
+        </svg>
+      </button>
+      <span
+        class="inline-block mx-4"
+        data-testid="pages"
+      >
+        1 of 50
+      </span>
+      <button
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+        data-testid="nextPage"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="KeyboardArrowRightRoundedIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.29 15.88 13.17 12 9.29 8.12a.9959.9959 0 0 1 0-1.41c.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
