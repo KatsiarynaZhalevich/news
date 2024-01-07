@@ -7,7 +7,7 @@ import getPostsSettings from "../store/selectors/settingSelectors";
 
 type PropPAgeCount = {
   pageCount: number
-}
+};
 
 const Pagination = ({pageCount}: PropPAgeCount) => {
   const dispatch = useDispatch();

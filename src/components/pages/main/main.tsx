@@ -9,6 +9,7 @@ import getPostsData from "../../common/store/selectors/fetchPostsSelectors";
 import getPostsSettings from "../../common/store/selectors/settingSelectors";
 import NewsList from "./newsList/newsList";
 
+
 const Main = () => {
 
   const settings = useSelector(getPostsSettings);
@@ -27,4 +28,4 @@ const Main = () => {
     
 }
 
-export default Main
+export default Main;

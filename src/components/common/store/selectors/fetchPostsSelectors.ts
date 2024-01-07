@@ -1,4 +1,4 @@
-import { PostsData, Store } from "../store";
+import { PostsData, Store } from "../interfaces/interfaces";
 
 const getPostsData = (store: Store): PostsData=> store.posts;
 

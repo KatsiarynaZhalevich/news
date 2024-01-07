@@ -21,17 +21,13 @@ const Search = () => {
   }
 
   const changeSearchValue = (event: React.ChangeEvent<HTMLInputElement>) => {
-    if(event.target.value) {
       dispatch(updateSearchParams({
         searchString: event.target.value.trim().replace(/ /g,"%20"), 
         searchType}));
-    } else {
-      cleanUpSearch();
-    }
   }
 
   const cleanUpSearch = () => {
-    dispatch(updateSearchParams({searchString: '', searchType: searchType}));
+    dispatch(updateSearchParams({searchString: '', searchType}));
   }
 
   const onMouseDownEvent = (event: React.KeyboardEvent<HTMLInputElement>) => {
@@ -60,12 +56,12 @@ const Search = () => {
             '&.Mui-focused .MuiOutlinedInput-notchedOutline': { borderColor: '#cbd5e1'},
           }}
         >
-          <MenuItem value='&query='>Title</MenuItem>
+          <MenuItem value='&query='>Match</MenuItem>
           <MenuItem value=',author_'>Author</MenuItem>
         </Select>
       </FormControl>
       <OutlinedInput
-        placeholder={`Search by ${searchType === ',author_' ? 'author' : 'title'}`}
+        placeholder={`Search by ${searchType === ',author_' ? 'author' : 'match'}`}
         type='text'
         value={searchSettings.searchStr}
         onChange={changeSearchValue}

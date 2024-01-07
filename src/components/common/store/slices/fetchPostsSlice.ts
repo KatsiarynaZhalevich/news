@@ -10,8 +10,7 @@ export const fetchPostsSlice =  createSlice({
     postsFailed(state, action) {
       state.loading = false;
       state.fetched = true;
-      state.errors = action.payload
-      console.log('action.payload.errors',action.payload)
+      state.errors = action.payload;
     },
     postsSucceeded(state, action) {
       state.posts = action.payload.hits;

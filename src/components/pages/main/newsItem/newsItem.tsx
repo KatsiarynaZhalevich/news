@@ -1,4 +1,4 @@
-import { Post } from "../../../common/store/store";
+import { Post } from "../../../common/store/interfaces/interfaces";
 
 const NewsItem = ({author, title, url}: Post) => {
       

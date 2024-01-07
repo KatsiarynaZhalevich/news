@@ -1,7 +1,7 @@
 import { debounce, put, call, select } from 'redux-saga/effects';
 import { postsFailed, postsRequested, postsSucceeded } from "../slices/fetchPostsSlice";
 import getPostsSettings from "../selectors/settingSelectors";
-import { PageSettings, PostsData } from "../store";
+import { PageSettings, PostsData } from "../interfaces/interfaces";
 import { Api } from "./api";
 
 

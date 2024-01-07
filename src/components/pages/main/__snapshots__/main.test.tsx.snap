@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders a message 1`] = `
+exports[`Main component should renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="p-5 h-full"
@@ -33,7 +33,7 @@ exports[`renders a message 1`] = `
               role="combobox"
               tabindex="0"
             >
-              Title
+              Match
             </div>
             <input
               aria-hidden="true"
@@ -72,7 +72,7 @@ exports[`renders a message 1`] = `
         >
           <input
             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
-            placeholder="Search by title"
+            placeholder="Search by match"
             type="text"
             value=""
           />
@@ -515,6 +515,11 @@ exports[`renders a message 1`] = `
         </span>
       </p>
     </div>
+    <p
+      class="text-center"
+    >
+      No results to show
+    </p>
     <div
       class="flex items-center justify-center"
     >

@@ -10,6 +10,7 @@
 .search .MuiFormControl-root label.Mui-focused{
     color: #94a3b8;
   }
-  .search .MuiFormControl-root {
-    margin-right: 0px;
-  }
+  
+.search .MuiFormControl-root {
+  margin-right: 0px;
+}

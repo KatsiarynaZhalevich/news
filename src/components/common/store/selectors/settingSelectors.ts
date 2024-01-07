@@ -1,4 +1,4 @@
-import { PageSettings, Store } from "../store";
+import { PageSettings, Store } from "../interfaces/interfaces";
 
 const getPostsSettings = (store: Store): PageSettings => store.page;
 

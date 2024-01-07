@@ -1,28 +1,18 @@
-
 import configureStore from 'redux-mock-store';
 import { Provider } from 'react-redux';
+import { mockStore } from '../../pages/main/mocks';
+import { render } from '@testing-library/react';
 import Pagination from './pagination';
-import renderer from 'react-test-renderer';
-import { ErrorBoundary } from 'react-error-boundary';
 
+const mockStoreTest = configureStore([]);
 
+const store = mockStoreTest(mockStore);
 
-const mockStore = configureStore([]);
-
-const store = mockStore({
-  currentPage: 1,
-});
-
-it('page should renders correctly', () => {
-  const pageCount = 10;
-  const tree = renderer
-    .create(
-      <ErrorBoundary fallback={<p className="text-center">Something went wrong. Please try later</p>}>
-            <Provider store={store}>
-             <Pagination pageCount={pageCount} />
-           </Provider>
-      </ErrorBoundary>
-      )
-    .toJSON();
-  expect(tree).toMatchSnapshot();
-});
+test('Pagination component should renders correctly', () => {
+  const { asFragment } = render (
+      <Provider store={store}>
+        <Pagination pageCount={4} />
+      </Provider>
+  );
+  expect(asFragment()).toMatchSnapshot();
+})
